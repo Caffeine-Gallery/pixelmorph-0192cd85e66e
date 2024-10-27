@@ -1,0 +1,43 @@
+.img-preview {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.upload-section {
+    text-align: center;
+    padding: 20px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.preview-section {
+    text-align: center;
+}
+
+.spinner-border {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.history-item {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.history-item:hover {
+    transform: scale(1.05);
+}
+
+.history-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}

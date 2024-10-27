@@ -1,0 +1,4 @@
+service : {
+  getAvatarHistory: () -> (vec blob) query;
+  storeAvatar: (blob) -> (opt blob);
+}
